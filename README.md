@@ -28,3 +28,12 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+
+## Tips
+Para cambiar la fotografica de index u home se hace en el archivo index.astro en la linea 48, se cambia el link de la imagen por el de la nueva imagen.
+
+el actual es  `src="/assets/portrait.jpg"`[Aqui](!.\public\assets\portrait.jpg)
+
+Para cambiar las skils debajo de la descripcion de index, es en el archivo index.astro  linea 33.
+

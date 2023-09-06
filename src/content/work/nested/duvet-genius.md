@@ -1,22 +1,53 @@
 ---
-title: Duvet Genius
+title: Gestión Hotelera 
 publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: Imagen del proyecto en su vista principal, donde se ven diferentes hoteles.
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  Desarrollamos un sistema de gestión hotelera, de una cadena de hoteles para la empresa Tranqui Descanso.
 tags:
-  - Design
-  - Dev
-  - Branding
+  - Java
+  - Spring Boot
+  - Hibernate
+  - JPA
+  - MVC
+  - Postgres
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+## Proyecto de Gestión Hotelera
+### Backend para Gestión Hotelera
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Para desarrollar la robusta capa backend de nuestro sistema de gestión hotelera, hemos optado por utilizar un conjunto de tecnologías líderes en la industria para garantizar la eficiencia y la escalabilidad. El backend de nuestro sistema se basa en el siguiente conjunto de tecnologías:
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+- **Java**: Utilizamos Java como nuestro lenguaje de programación principal debido a su versatilidad y robustez. Java es ideal para aplicaciones empresariales y nos permite implementar una lógica de negocio sólida y segura.
+- **Spring Boot**: Hemos adoptado Spring Boot como nuestro marco de desarrollo, lo que nos permite acelerar el proceso de desarrollo y centrarnos en la creación de servicios web de alta calidad. Spring Boot también nos brinda características de seguridad y gestión de dependencias que son esenciales para un proyecto de esta envergadura.
+- **Hibernate y JPA**: Para la gestión de datos y la interacción con nuestra base de datos PostgreSQL, hemos elegido Hibernate junto con JPA (Java Persistence API). Estas tecnologías nos permiten mapear objetos Java a entidades de base de datos de manera eficiente y realizar operaciones de CRUD de manera sencilla.
+  -  Utilizamos Hibernate para mapear nuestras clases Java a entidades de base de datos. Esto nos permite realizar operaciones CRUD de manera eficiente y sencilla.
+  -  Utilizamos JPA (Java Persistence API) para definir las entidades de base de datos y sus relaciones. JPA nos permite definir las entidades de base de datos utilizando anotaciones Java, lo que nos permite mantener un código limpio y legible.
+- **MVC (Modelo-Vista-Controlador)**: Implementamos el patrón de diseño Modelo-Vista-Controlador para mantener una estructura organizada y escalable en nuestro backend. Esto nos ayuda a separar la lógica de negocio, la presentación y el control de las operaciones.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- **PostgreSQL**: Como sistema de gestión de bases de datos, hemos seleccionado PostgreSQL debido a su confiabilidad y capacidades de escalabilidad. PostgreSQL es una opción sólida para manejar los datos críticos de nuestra cadena hotelera.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Con esta poderosa combinación de tecnologías, hemos desarrollado un backend que proporciona una API RESTful eficiente y segura para gestionar todas las operaciones relacionadas con la gestión de hoteles y reservas. Nuestro backend se integra perfectamente con la base de datos PostgreSQL y proporciona un rendimiento óptimo para garantizar una experiencia fluida para nuestros usuarios y clientes.
+### Premisa
+La cadena de hoteles TRANQUIDESCANSO S.A. desea administrar los datos de sus operaciones a través de una base de datos relacional. Dentro de esta cadena hotelera existen varios hoteles registrados a nivel nacional, de cada uno de estos hoteles se cuenta con su nombre, dirección, teléfonos, año de inauguración, antigüedad y categoría. De acuerdo con la reglamentación hotelera nacional, todos los hoteles deben estar clasificados en una categoría (cinco estrellas, cuatro estrellas…), es posible que el hotel pueda disminuir o aumentar de categoría y es importante dejar registrado el momento en que realiza cambio de categoría.
+
+Además, los hoteles ofrecen a sus huéspedes diferentes tipos de habitaciones (individual, doble, suite…) en donde cada una de ellas tiene una identificación particular para lograr diferenciarlas en el momento de asignarlas.
+
+Las habitaciones pueden ser reservadas por los huéspedes directamente, en cuyo caso se requiere registrar número de identificación, nombre, dirección y teléfonos de contacto de quien realiza la reserva y quedará como responsable de la misma. Si la reserva es realizada por una agencia de viajes, es importante que se registren los datos del huésped responsable de la reserva (identificación, nombre, dirección y teléfonos) y los datos de la agencia que realiza la reserva incluyendo la identificación y el nombre. Es importante dejar el registro de la fecha en la cual se realiza la reserva, la fecha en la que iniciaría y finalizaría la reserva, cantidad de personas, cantidad de habitaciones, el tipo de habitación y servicios adicionales que pudiera requerir como por ejemplo parqueadero, cuido de mascotas, entre otros.
+
+La cadena hotelera da la opción de pagar el 20% del valor de la reserva hasta 24 horas antes, si esto no se notifica al hotel la reserva se cancelará y las habitaciones quedarán disponibles para ser asignadas a otros huéspedes. Por otra parte, el 80% restante del valor de la reserva se deberá cancelar en el momento de realizar el registro de llegada al hotel. La hora en la que inicia el registro de entrada de los huéspedes es a las 3:00 pm y se darán máximo 4 horas adicionales para este proceso. Si pasadas las cuatro horas, es decir, si a las 7:00 pm del día en el que inicia la reserva no se ha realizado el registro en el hotel, las habitaciones quedarán disponibles para ser asignadas y el huésped no podrá pedir reintegro del dinero abonado a la reserva.
+
+Una vez se ha realizado el registro de llegada, es importante diligenciar la identificación y nombre de cada una de las personas que se hospedarán en el hotel bajo el número de reserva y la habitación a la cual queda asignado cada uno de estos huéspedes. Así mismo, es importante recordar que debe quedar pagado el saldo existente para la reserva. Una vez se ha completado este proceso, se puede hacer entrega de las llaves de las habitaciones y los huéspedes podrán hacer uso de los servicios con que cuenta el hotel.
+
+Una vez culmina la estadía de los huéspedes en el hotel, para hacer entrega de la habitación primero es importante pagar los servicios adicionales que hayan consumido y así con el paz y salvo podrán abandonar las instalaciones del hotel.
+
+Al hotel le interesa que a partir de los datos registrados en la base de datos sea posible obtener información como la siguiente:
+- Reservas realizadas en un período de tiempo.
+- Reservas que fueron canceladas sin pagar el valor del 20% de anticipo.
+- Reservas que no fueron utilizadas y pagaron el 20% de anticipo.
+- Reservas que tuvieron registro de llegada de los huéspedes a tiempo (registraron 3 pm a 7 pm de lo contrario no llegaron a tiempo).
+- Reservas que registraron huéspedes menores de edad y/o mascotas.
+- Reservas que pagaron servicios adicionales.
+- Datos de los huéspedes correspondientes a una reserva particular.
+
