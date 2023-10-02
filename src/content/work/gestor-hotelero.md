@@ -1,11 +1,12 @@
 ---
 title: Gestión Hotelera
 publishDate: 2020-03-04 00:00:00
-img: /assets/stock-3.jpg
+img: /assets/gestion-hotelera/IndexGestorDeHoteles.png
 img_alt: Imagen del proyecto en su vista principal, donde se ven diferentes hoteles.
 description: |
-  Desarrollamos un sistema de gestión hotelera, de una cadena de hoteles para la empresa Tranqui Descanso.
+  Estoy desarrollando  un sistema de gestión hotelera, de una cadena de hoteles para la empresa Tranqui Descanso.
 tags:
+  - En desarrollo
   - Java
   - Spring Boot
   - Hibernate
@@ -14,8 +15,8 @@ tags:
   - Postgres
 ---
 
-## Proyecto de Gestión Hotelera
-
+# Proyecto de Gestión Hotelera
+### [![Repositorio](https://img.shields.io/badge/Repositorio-rgb(118,%2017,%20166)?style=for-the-badge&logo=github&logoColor=white&labelColor=rgb(118,%2017,%20166))](https://github.com/J4F3ET/UD.BaseDeDatoAvanzada.ProyectoFinal)
 ### Backend para Gestión Hotelera
 
 Para desarrollar la robusta capa backend de nuestro sistema de gestión hotelera, hemos optado por utilizar un conjunto de tecnologías líderes en la industria para garantizar la eficiencia y la escalabilidad. El backend de nuestro sistema se basa en el siguiente conjunto de tecnologías:
