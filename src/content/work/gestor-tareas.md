@@ -15,7 +15,7 @@ tags:
 ---
 # Proyecto de Gestión de Tareas
 ### [![Repositorio](https://img.shields.io/badge/Repositorio-rgb(118,%2017,%20166)?style=for-the-badge&logo=github&logoColor=white&labelColor=rgb(118,%2017,%20166))](https://github.com/J4F3ET/UD.ProgramacionAvanzada.ApiRestFull)
-Para desarrollar la robusta capa backend de nuestro sistema de gestión de tareas, hemos optado por utilizar un conjunto de tecnologías líderes en la industria para garantizar la eficiencia y la escalabilidad. El backend de nuestro sistema se basa en el siguiente conjunto de tecnologías:
+Para desarrollar la robusta capa backend de nuestro sistema de gestión de tareas, hemos optado por utilizar un conjunto de tecnologías líderes en la industria para garantizar la eficiencia y la escalabilidad. El uso conjunto de estas tecnologias permitio desarrollar un backend que proporciona una API RESTful eficiente y segura para gestionar todas las operaciones relacionadas con la gestión de tareas.
 - **Spring Boot**: Utilice Spring boot como marco de desarrollo para permitir la gestion de dependencias y acelerar el proceso de desarrollo.
 - **Hibernate y JPA**: Se utilizo la combinación de Hibernate y JPA para la gestión de datos y la interacción con nuestra base de datos PostgreSQL.
   - Utilizamos Hibernate para mapear nuestras clases Java a entidades de base de datos. Esto nos permite realizar operaciones CRUD de manera eficiente y sencilla.
