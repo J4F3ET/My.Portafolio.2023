@@ -1,38 +1,46 @@
 ---
 title: Gestión Hotelera
-publishDate: 2020-03-04 00:00:00
+publishDate: 2023-05-07 00:00:00
 img: /assets/gestion-hotelera/IndexGestorDeHoteles.png
 img_alt: Imagen del proyecto en su vista principal, donde se ven diferentes hoteles.
 description: |
-  Estoy desarrollando  un sistema de gestión hotelera, de una cadena de hoteles para la empresa Tranqui Descanso.
+  Estoy desarrollando  un sistema de gestión hotelera, de una cadena de hoteles para la empresa (ficticia) Tranqui Descanso.
+status: En desarrollo
 tags:
-  - En desarrollo
-  - Java
-  - Spring Boot
-  - Hibernate
-  - JPA
-  - MVC
-  - Postgres
+  - java
+  - spring
+  - hibernate
+  - docker
+  - postgres
 ---
 
-# Proyecto de Gestión Hotelera
-### [![Repositorio](https://img.shields.io/badge/Repositorio-rgb(118,%2017,%20166)?style=for-the-badge&logo=github&logoColor=white&labelColor=rgb(118,%2017,%20166))](https://github.com/J4F3ET/UD.BaseDeDatoAvanzada.ProyectoFinal)
-### Backend para Gestión Hotelera
+## Gestión Hotelera
+
+[![Repositorio](https://img.shields.io/badge/Repositorio-%23090b11?style=for-the-badge&logo=github&logoColor=white&labelColor=%23090b11)](https://github.com/J4F3ET/UD.BaseDeDatoAvanzada.ProyectoFinal)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fgestion-hotelera.onrender.com&up_message=Desplegado&down_message=No%20desplegado&style=for-the-badge&label=Estado&labelColor=%23090b11)
+
+## Logros y Aprendizajes
 
 Para desarrollar la robusta capa backend de nuestro sistema de gestión hotelera, hemos optado por utilizar un conjunto de tecnologías líderes en la industria para garantizar la eficiencia y la escalabilidad. El backend de nuestro sistema se basa en el siguiente conjunto de tecnologías:
 
-- **Java**: Utilizamos Java como nuestro lenguaje de programación principal debido a su versatilidad y robustez. Java es ideal para aplicaciones empresariales y nos permite implementar una lógica de negocio sólida y segura.
-- **Spring Boot**: Hemos adoptado Spring Boot como nuestro marco de desarrollo, lo que nos permite acelerar el proceso de desarrollo y centrarnos en la creación de servicios web de alta calidad. Spring Boot también nos brinda características de seguridad y gestión de dependencias que son esenciales para un proyecto de esta envergadura.
-- **Hibernate y JPA**: Para la gestión de datos y la interacción con nuestra base de datos PostgreSQL, hemos elegido Hibernate junto con JPA (Java Persistence API). Estas tecnologías nos permiten mapear objetos Java a entidades de base de datos de manera eficiente y realizar operaciones de CRUD de manera sencilla.
-  - Utilizamos Hibernate para mapear nuestras clases Java a entidades de base de datos. Esto nos permite realizar operaciones CRUD de manera eficiente y sencilla.
-  - Utilizamos JPA (Java Persistence API) para definir las entidades de base de datos y sus relaciones. JPA nos permite definir las entidades de base de datos utilizando anotaciones Java, lo que nos permite mantener un código limpio y legible.
-- **MVC (Modelo-Vista-Controlador)**: Implementamos el patrón de diseño Modelo-Vista-Controlador para mantener una estructura organizada y escalable en nuestro backend. Esto nos ayuda a separar la lógica de negocio, la presentación y el control de las operaciones.
+- Maqueté la base de datos teniendo en cuenta los requerimientos para crear los
+**triggers, procedimientos almacenados y vistas**.
 
-- **PostgreSQL**: Como sistema de gestión de bases de datos, hemos seleccionado PostgreSQL debido a su confiabilidad y capacidades de escalabilidad. PostgreSQL es una opción sólida para manejar los datos críticos de nuestra cadena hotelera.
+- Utilizando **Spring Boot** junto con **JPA** y **Hibernate**, generé la capa de
+persistencia y la capa de servicios
 
-Con esta poderosa combinación de tecnologías, hemos desarrollado un backend que proporciona una API RESTful eficiente y segura para gestionar todas las operaciones relacionadas con la gestión de hoteles y reservas. Nuestro backend se integra perfectamente con la base de datos PostgreSQL y proporciona un rendimiento óptimo para garantizar una experiencia fluida para nuestros usuarios y clientes.
+- Implementé **Docker Compose** para facilitar la transferencia de datos y
+la ejecución de la aplicación en diferentes entornos.
 
-### Premisa
+- Creé algoritmos en **Python** para generar datos de prueba y practicar
+procesos de **ETL**.
+
+- Estoy implementando **Spring Security** para desarrollar la autenticación en el backend.
+
+## Premisa
+
+![Static Badge](https://img.shields.io/badge/-Alerta%20de%20mucho%20texto-red?style=for-the-badge)
+
 
 La cadena de hoteles TRANQUIDESCANSO S.A. desea administrar los datos de sus operaciones a través de una base de datos relacional. Dentro de esta cadena hotelera existen varios hoteles registrados a nivel nacional, de cada uno de estos hoteles se cuenta con su nombre, dirección, teléfonos, año de inauguración, antigüedad y categoría. De acuerdo con la reglamentación hotelera nacional, todos los hoteles deben estar clasificados en una categoría (cinco estrellas, cuatro estrellas…), es posible que el hotel pueda disminuir o aumentar de categoría y es importante dejar registrado el momento en que realiza cambio de categoría.
 

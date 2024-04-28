@@ -1,26 +1,26 @@
 ---
-title: Gestor de tareas
-publishDate: 2023-10-01 00:00:00
+title: Todo List
+publishDate: 2023-05-06 00:00:00
 img: /assets/gestor-tareas/IndexGestorDeTareas.png
 img_alt: Imagen de la página principal de la aplicación web
 description: |
   Gestor de tareas es una aplicación web que permite gestionar tareas de manera sencilla y rápida.
+status: Finalizado
 tags:
-  - Spring Boot
-  - Rest Api
-  - MVC
-  - Hibernite
-  - JPA
-  - AdminLTE
+  - spring
+  - hibernate
+  - postgres
 ---
-# Proyecto de Gestión de Tareas
-### [![Repositorio](https://img.shields.io/badge/Repositorio-rgb(118,%2017,%20166)?style=for-the-badge&logo=github&logoColor=white&labelColor=rgb(118,%2017,%20166))](https://github.com/J4F3ET/UD.ProgramacionAvanzada.ApiRestFull)
-Para desarrollar la robusta capa backend de nuestro sistema de gestión de tareas, hemos optado por utilizar un conjunto de tecnologías líderes en la industria para garantizar la eficiencia y la escalabilidad. El uso conjunto de estas tecnologias permitio desarrollar un backend que proporciona una API RESTful eficiente y segura para gestionar todas las operaciones relacionadas con la gestión de tareas.
-- **Spring Boot**: Utilice Spring boot como marco de desarrollo para permitir la gestion de dependencias y acelerar el proceso de desarrollo.
-- **Hibernate y JPA**: Se utilizo la combinación de Hibernate y JPA para la gestión de datos y la interacción con nuestra base de datos PostgreSQL.
-  - Utilizamos Hibernate para mapear nuestras clases Java a entidades de base de datos. Esto nos permite realizar operaciones CRUD de manera eficiente y sencilla.
-  - Utilizamos JPA (Java Persistence API) para definir las entidades de base de datos y sus relaciones. JPA nos permite definir las entidades de base de datos utilizando anotaciones Java, lo que nos permite mantener un código limpio y legible.
+# Gestor de Tareas (todo list)
+[![Repositorio](https://img.shields.io/badge/Repositorio-%23090b11?style=for-the-badge&logo=github&logoColor=white&labelColor=%23090b11)](https://github.com/J4F3ET/UD.ProgramacionAvanzada.ApiRestFull)
 
-- **MVC (Modelo-Vista-Controlador)**: Implementamos el patrón de diseño Modelo-Vista-Controlador con DAO, DTO y Service para mantener una estructura organizada y escalable en nuestro backend. Esto nos ayuda a separar la lógica de negocio, la presentación y el control de las operaciones.
+Para el desarrollo de este proyecto se utilizó **Spring Boot** y **Hibernate** para la capa de persistencia, **PostgreSQL** como base de datos y **AdminLTE** para el frontend. La aplicación permite a los usuarios crear, editar y eliminar tareas, así como marcarlas como completadas. Además, se pueden filtrar las tareas por estado y por fecha de creación.
 
-- **[AdminLTE](https://adminlte.io/)**: Utilizamos AdminLTE como plantilla para la interfaz de usuario de nuestra aplicación web.
+## Logros y Aprendizajes
+- Creé una API RESTful con **Spring Boot** para la gestión de tareas que permite a los usuarios filtrar y modificar las tareas.
+- Aprendí a utilizar **Hibernate** y **JPA** junto con **Spring Boot** para la gestión de
+datos y la interacción con la base de datos.
+- Implemente buenas prácticas de programación teniendo en cuenta el patrón de
+diseño MVC, y la separación de responsabilidades con DAO, DTO y Service.
+- Apliqué **[AdminLTE](https://adminlte.io/)** para un frontend intuitivo y visualmente
+acortando el tiempo de desarrollo.
