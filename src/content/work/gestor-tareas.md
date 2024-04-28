@@ -13,6 +13,7 @@ tags:
 ---
 # Gestor de Tareas (todo list)
 [![Repositorio](https://img.shields.io/badge/Repositorio-%23090b11?style=for-the-badge&logo=github&logoColor=white&labelColor=%23090b11)](https://github.com/J4F3ET/UD.ProgramacionAvanzada.ApiRestFull)
+![Website](https://img.shields.io/website?url=https%3A%2F%2FUD.ProgramacionAvanzada.ApiRestFull.onrender.com&up_message=Desplegado&down_message=No%20desplegado&style=for-the-badge&label=Estado&labelColor=%23090b11)
 
 Para el desarrollo de este proyecto se utilizó **Spring Boot** y **Hibernate** para la capa de persistencia, **PostgreSQL** como base de datos y **AdminLTE** para el frontend. La aplicación permite a los usuarios crear, editar y eliminar tareas, así como marcarlas como completadas. Además, se pueden filtrar las tareas por estado y por fecha de creación.
 

@@ -1,5 +1,5 @@
 ---
-title: Gestión Hotelera
+title: Gestor Hotelero
 publishDate: 2023-05-07 00:00:00
 img: /assets/gestion-hotelera/IndexGestorDeHoteles.png
 img_alt: Imagen del proyecto en su vista principal, donde se ven diferentes hoteles.
